@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Lumbini Tourism</title>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome =1">
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" media="screen">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/bootstrap/bootstrap-theme.min.css" media="screen">
+      <link rel="stylesheet" type = "text/css" href ="css/site.css">
+   </head>
+   <body>
+      <!--Navbar-->
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+         <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand" href="index.html">LUMBINI TOURISM, NEPAL</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="nav navbar-nav navbar-right">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="places.html">Places To See</a></li>
+                  <li><a href="photos.html">Photos</a></li>
+                  <li class="active"><a href="contact.html">Contact Us</a></li>
+               </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+         </div>
+         <!-- /.container-->
+      </nav>
+      <!-- End Navbar-->
+      
+      <div class="container lumbini-wrapper">
+         <div class="page-header">
+            <h1><span style="color:yellow;">Contact with Map</span><br><small><span style="color: white;"> Your email address and phone number will not be published. Required fields are marked*</span></small></h1>
+         </div>
+         <!-- Contact with Map - START -->
+         <div class="row">
+            <div class="col-md-6">
+               <div class="well well-sm">
+                  <form class="form-horizontal" method="post">
+                     <fieldset>
+                        <legend class="text-center header">Contact us</legend>
+                        <div class="form-group">
+                           <div class="col-md-10 col-md-offset-1">
+                              <label for="fname">First Name <span>(required, at least 2 characters)</span></label>
+                              <input id="fname" name="name" minlength="2" type="text" placeholder="First Name*" class="form-control" required/>
+                           </div>
+                        </div>
+                        <div class="form-group">
+                           <div class="col-md-10 col-md-offset-1">
+                              <label for="lname">Last Name <span>(required, at least 2 characters)</span></label>
+                              <input id="lname" name="name" minlength="2" type="text" placeholder="Last Name*" class="form-control" required/>
+                           </div>
+                        </div>
+                        <div class="form-group">
+                           <div class="col-md-10 col-md-offset-1">
+                              <label for="email">E-Mail <span>(required, won't be published)</span></label>
+                              <input id="email" name="email" type="email" placeholder="Email Address*" class="form-control" required/>
+                           </div>
+                        </div>
+                        <div class="form-group">
+                           <div class="col-md-10 col-md-offset-1">
+                              <label for="comment">Your comment <span> (required)</span></label>
+                              <textarea class="form-control" id="comment" name="comment" required placeholder="Enter your comments for us her." rows="7"></textarea>
+                           </div>
+                        </div>
+                        <div class="form-group">
+                           <div class="col-md-12 text-center">
+                              <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                           </div>
+                        </div>
+                     </fieldset>
+                  </form>
+               </div>
+            </div>
+            <div class="col-md-6">
+               <div>
+                  <div class="panel panel-default">
+                     <div class="text-center header">Our Office</div>
+                     <div class="panel-body text-center">
+                        <h4>Address</h4>
+                        <div>
+                           Taulihawa Road <br />
+                           Lumbini sanskritik 32900,Nepal<br />
+                           +977 980-8851004<br />
+                           amitbaniya64@gmail.com<br />
+                        </div>
+                        <hr />
+                        <div id="map" class="iframe-container">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Contact with Map - END -->
+       
+       
+      <!-- Footer -->
+      <footer class="footer-distributed">
+         <div class="footer-left">
+            <h3>LUMBINI TOURISM,<span> NEPAL</span></h3>
+            <p class="footer-links">
+               <a href="index.html">Home</a>
+               ·
+               <a href="places.html">Places To See</a>
+               ·
+               <a href="photos.html">Photos</a>
+               ·
+               <a href="contact.html">Contact Us</a>
+            </p>
+            <p class="footer-company-name">&copy; Lumbini Tourism, Nepal, 2017</p>
+         </div>
+         <div class="footer-center">
+            <div>
+               <i class="fa fa-map-marker"></i>
+                <p><span>Taulihawa Road, Lumbini sanskritik 32900,</span><br>Nepal</p>
+            </div>
+            <div>
+               <i class="fa fa-phone"></i>
+               <p>+977 980-8851004</p>
+            </div>
+            <div>
+               <i class="fa fa-envelope"></i>
+               <p><a href="mailto:amitbaniya64@gmail.com">amitbaniya64@gmail.com</a></p>
+               <!---company email add--->
+            </div>
+         </div>
+         <div class="footer-right">
+            <p class="footer-company-about">
+               <span>About Lumnini</span>
+               Lumbini is one of the most Buddhist pilgrimage site located at the town Kapilavastu, district Rupandehi, Nepal where Lord Gautam Buddha was born.
+            </p>
+            <div class="footer-icons">
+               <a href="#"><i class="fa fa-facebook"></i></a>
+               <a href="#"><i class="fa fa-twitter"></i></a>
+               <a href="#"><i class="fa fa-linkedin"></i></a>
+               <a href="#"><i class="fa fa-github"></i></a>
+            </div>
+         </div>
+      </footer>
+      <!--End Footer--->
+       
+       
+      <!-- Modal  for contact-->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+         <div class="modal-content">
+            <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+               <h4 class="modal-title" id="myModalLabel">In progress</h4>
+            </div>
+            <div class="modal-body">
+               Form submission has not been implimented yet!
+            </div>
+            <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+         </div>
+      </div>
+       </div>  
+       
+       
+      <div>
+         <script src="js/jquery/jquery-3.2.1.min.js"></script>
+          <script src="js/bootstrap/bootstrap.min.js"></script>        
+         <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.js"></script>
+          <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARfaYrWT0B6AczSyDG1pIZtD-UJnV8Leo&callback=initMap"></script>
+          <script type="text/javascript" src="js/site.js"></script>
+          
+      </div>
+          
+       
+         <script>
+            jQuery(function($){
+                $("form").submit(function(e){
+                    e.preventDefault(); // Keep the form from submitting
+                    $('#myModal').modal();
+                });
+            });
+         </script>
+           
+
+   </body>
+</html>
