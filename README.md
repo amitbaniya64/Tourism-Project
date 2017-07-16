@@ -1,3 +1,4 @@
 # FrontEndWebDev-ClassProject
 
-
+ 
+This is a simple class project named Lumbini Tourism, Nepal, which I have posted in my repo.The main propose of this project is to fulfilment for the basic requirements of Code Louisville for graded syatem. In this project, I tried to make it more responsive design using a framework such as bootstrap and implementing some jQuery functionality to create a contact-us-form and adding some other interactivity functionalities like lightbox that pops up a picture, a picture carousel . I have also included custom CSS, custom JS, framework Bootstrap. In future,it may have very helpfull resources to the beginners for their simple project start as I have made some helpfull comments in the major sections of CSS, HTML,and JavaScript files so viewers can understand what the major parts of my code do. 
